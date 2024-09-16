@@ -52,7 +52,7 @@ int main() {
 
   // TODO: use strcpy and hello_str to store
   //       the string "hello" into hello_world_str
-  strcpy(hello_str, hello_world_str);
+  strcpy(hello_world_str, hello_str);
 
   // TODO: store the space character in "hello world" at the correct index
   // Note: a space is not the same as null terminator
